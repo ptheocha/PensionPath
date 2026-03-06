@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 // ═══════════════════════════════════════════════
 // PLAN DATA (Ontario Only)
@@ -564,6 +565,7 @@ export default function PensionPath(){
           © 2026 www.pensionpath.ca · Built for Canadians
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
