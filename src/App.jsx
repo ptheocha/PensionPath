@@ -1,4 +1,5 @@
 import { useState, useMemo, useRef } from "react";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // ═══════════════════════════════════════════════
 // PLAN DATA (Ontario Only)
@@ -579,6 +580,7 @@ export default function PensionPath(){
           © 2026 www.pensionpath.ca · Built for Canadians
         </div>
       </div>
+      <SpeedInsights />
     </div>
   );
 }
